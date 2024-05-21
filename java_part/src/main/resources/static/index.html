@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Draw Digit</title>
+    <style>
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(28, 20px);
+            grid-template-rows: repeat(28, 20px);
+        }
+        .cell {
+            width: 20px;
+            height: 20px;
+            border: 1px solid #ccc;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+<div class="grid" id="grid"></div>
+<button onclick="submitDrawing()">Submit</button>
+<div id="result"></div>
+<script src="app.js"></script>
+</body>
+</html>
